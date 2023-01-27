@@ -1,9 +1,0 @@
-2021-12-02T19:09:28|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
-  File "C:\Users\RAMAN\workspace\NearField\ScopeFoundry\hardware.py", line 237, in enable_connection
-    raise err
-  File "C:\Users\RAMAN\workspace\NearField\ScopeFoundry\hardware.py", line 230, in enable_connection
-    self.disconnect()
-  File "C:\Users\RAMAN\workspace\NearField\ScopeFoundryHW\aist_nt_remote_spm_rpc\remote_spm_hw.py", line 64, in disconnect
-    self.dev.disconnect()
-AttributeError: 'RemoteSPMHW' object has no attribute 'dev'
-

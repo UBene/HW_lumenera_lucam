@@ -1,4 +1,0 @@
-# Make devices available to all users
-
-SUBSYSTEM=="usb", ATTR{idVendor}=="16c0", MODE="666"
-

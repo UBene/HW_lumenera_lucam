@@ -1,9 +1,0 @@
-2021-12-02T20:01:27|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
-  File "C:\Users\RAMAN\workspace\NearField\ScopeFoundry\hardware.py", line 220, in enable_connection
-    raise err
-  File "C:\Users\RAMAN\workspace\NearField\ScopeFoundry\hardware.py", line 210, in enable_connection
-    self.connect()
-  File "C:\Users\RAMAN\workspace\NearField\ScopeFoundryHW\aist_nt_remote_spm_rpc\remote_spm_hw.py", line 52, in connect
-    raise RuntimeError(f"{self.name} Invalid proxy")
-RuntimeError: remote_spm_hw Invalid proxy
-
